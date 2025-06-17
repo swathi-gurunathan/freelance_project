@@ -1,0 +1,54 @@
+body {
+  background: #f7f7fa;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 40px auto;      /* This centers the container horizontally */
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.dashboard-section {
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dashboard-section:last-child {
+  border-bottom: none;
+}
+
+.dashboard-section h3 {
+  color: #2d3a4a;
+  margin-bottom: 12px;
+}
+
+.dashboard-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.dashboard-list li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
