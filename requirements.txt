@@ -1,0 +1,5 @@
+npm:
+axios
+
+pip:
+django-cors-headers
